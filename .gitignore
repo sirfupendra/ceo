@@ -1,10 +1,7 @@
-/alumni
-/backend
-/frontend
-/ml
+# Node.js
 /node_modules
-/notes of chats
-/package-lock.json
-/package.json
-/sync
-/venv
+/build
+
+# Python
+__pycache__/
+*.py[cod]
