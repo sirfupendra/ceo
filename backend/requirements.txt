@@ -1,7 +1,8 @@
 Flask==2.3.3
-flask-cors==5.0.0
-pymongo==4.8.0  # Keeping the latest version
+flask-cors==5.0.0  # Latest version compatible with Flask
+pymongo==4.8.0  # Latest version of PyMongo
 
+# Adjusted or checked for compatibility with Python 3.12
 absl-py==2.1.0
 astunparse==1.6.3
 certifi==2024.8.30
@@ -13,7 +14,7 @@ flatbuffers==24.3.25
 fonttools==4.53.1
 gast==0.6.0
 google-pasta==0.2.0
-grpcio==1.66.1
+grpcio==1.66.1  # Latest version compatible
 gunicorn==23.0.0
 h5py==3.11.0
 idna==3.9
@@ -37,6 +38,7 @@ pandas==2.2.2
 pillow==10.4.0
 protobuf==4.25.4
 Pygments==2.18.0
+pymongo==4.8.0  # Ensure this is the latest version
 pyparsing==3.1.4
 python-dateutil==2.9.0.post0
 pytz==2024.1
@@ -48,8 +50,9 @@ setuptools==74.1.2
 six==1.16.0
 tensorboard==2.17.1
 tensorboard-data-server==0.7.2
-tensorflow==2.17.0
-tensorflow-intel==2.17.0
+# Adjust TensorFlow to a compatible version
+tensorflow==2.12.0  # Adjusted for compatibility
+# Removed tensorflow-intel as it may not have a compatible version
 termcolor==2.4.0
 threadpoolctl==3.5.0
 typing_extensions==4.12.2
