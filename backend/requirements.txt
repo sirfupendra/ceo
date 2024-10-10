@@ -12,7 +12,8 @@ cycler==0.12.1
 dnspython==2.6.1
 flatbuffers==24.3.25
 fonttools==4.53.1
-gast==0.6.0
+# Adjusted gast version for compatibility with TensorFlow
+gast>=0.2.1,<=0.4.0  # Compatible with TensorFlow 2.12.0
 google-pasta==0.2.0
 grpcio==1.66.1  # Latest version compatible
 gunicorn==23.0.0
