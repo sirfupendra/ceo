@@ -1,7 +1,6 @@
 Flask==2.3.3
-flask-cors==3.1.9
-pymongo==4.5.0
-gunicorn==20.1.0
+flask-cors==5.0.0
+pymongo==4.8.0  # Keeping the latest version
 
 absl-py==2.1.0
 astunparse==1.6.3
@@ -38,7 +37,6 @@ pandas==2.2.2
 pillow==10.4.0
 protobuf==4.25.4
 Pygments==2.18.0
-pymongo==4.8.0
 pyparsing==3.1.4
 python-dateutil==2.9.0.post0
 pytz==2024.1
