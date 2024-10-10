@@ -23,7 +23,7 @@ function Alumnisection() {
     const handleSearchSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.get(`http://localhost:5000/search?query=${searchQuery}`);
+            const response = await axios.get(`https://ceo-3j5o.onrender.com/search?query=${searchQuery}`);
             setSearchResults(response.data);
         } catch (error) {
             console.error('Error searching alumni:', error);

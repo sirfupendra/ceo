@@ -36,7 +36,7 @@ const Posts = () => {
       formData.append('mediaType', mediaType);
     }
 
-    const response = await fetch('http://localhost:5000/api/posts', {
+    const response = await fetch('https://ceo-3j5o.onrender.com/api/posts', {
       method: 'POST',
       body: formData,
     });

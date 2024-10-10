@@ -40,7 +40,7 @@ function Signup() {
     formData.append('message', formdata.message);
 
     try {
-      const response = await fetch('http://localhost:5000/signup', {
+      const response = await fetch('https://ceo-3j5o.onrender.com/signup', {
         method: 'POST',
         body: formData,
       });

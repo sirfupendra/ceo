@@ -9,7 +9,7 @@ from bson import ObjectId
 app = Flask(__name__)
 
 # Setup CORS to allow requests from your frontend
-CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
+CORS(app, resources={r"/*": {"origins": "https://ceo-3j5o.onrender.com"}})
 
 # MongoDB connection
 client = MongoClient('mongodb://localhost:27017/')
